@@ -79,13 +79,13 @@ Thilini Dharmawardhana
 
 Thanks to the following contributors for coding help and image design:
 
-- Creator Account: freeCodeCamp
+Creator Account: freeCodeCamp
 - Contribution: Coding and Design
 - Platform: Youtube
 - Webpage: https://www.youtube.com/@freecodecamp
-
-
-- Creator Account: tomitokko
+     
+    
+Creator Account: tomitokko
 - Contribution: Coding and Design
 - Platform: GitHub
 - Webpage: https://github.com/tomitokko
