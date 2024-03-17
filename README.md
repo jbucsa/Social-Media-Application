@@ -72,9 +72,11 @@ Aldo Resendiz
 
 Thilini Dharmawardhana
 - https://github.com/ThiliniDharma
+- [![LinkedIn][linkedin-shield]][linkedin-Dharmawardhana]
 
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url-Bucsa]: https://www.linkedin.com/in/justin-bucsa
 [linkedin-Aldoresendiz]: https://www.linkedin.com/in/aldoresendiz/
+[linkedin-Dharmawardhana]: https://www.linkedin.com/in/thilini-dharmawardhana-b4715717/
