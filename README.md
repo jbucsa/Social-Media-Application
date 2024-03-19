@@ -57,8 +57,27 @@ $
 
 ```
 
+## PIP Installs
 
+### Creating a Django application
 
+```bash
+pip install django
+
+```
+
+- Use the following command to create a django template application. Note that 'sma/' is only here because we want our project to start within a directory called 'sma'. If you leave out 'sma/', the application will be created in the directory the terminal is located in.
+
+```bash
+django-admin startapp sma/core
+
+```
+
+## Running a Django Server
+
+```bash
+python sma/manage.py runserver
+```
 
 ## Authors
 
