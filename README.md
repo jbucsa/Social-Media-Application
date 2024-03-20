@@ -59,6 +59,13 @@ $
 
 ## PIP Installs
 
+The following are the PIP packages required to running the application. 
+
+### Installing Pillow
+```bash
+python -m pip install Pillow
+```
+
 ### Creating a Django application
 
 ```bash
@@ -79,18 +86,23 @@ django-admin startapp sma/core
 python sma/manage.py runserver
 ```
 
-## Installing Pillow
-```bash
-python -m pip install Pillow
-```
+## Database - Migrations and Terminal Commands 
 
-## Make migrations
+### Make migrations
+
+After creating the schema model (see file sma/core/models.py). Run the following terminal command to migrate the schema into the database.
+
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-## Create Superuser
+## Administration Settings
+
+### Create Superuser (Admin User)
+
+To create a super user (the admin user for the application), run the following terminal command. 
+
 ```bash
 python manage.py createsuperuser
 user: admin
