@@ -79,6 +79,29 @@ django-admin startapp sma/core
 python sma/manage.py runserver
 ```
 
+## Installing Pillow
+```bash
+python -m pip install Pillow
+```
+
+## Make migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Create Superuser
+```bash
+python manage.py createsuperuser
+user: admin
+email: admin@socialmedia.com
+password:
+password (again): 
+bypass validation
+```
+
+
+
 ## Authors
 
 Justin Bucsa
