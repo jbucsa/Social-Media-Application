@@ -37,6 +37,6 @@ def signup(request):
             user_model = User.objects.get(username=username)
             new_profile = Profile.objects.create(user=user_model, id_user=user_model.id)
             new_profile.save()
-            return redirect('login')
+            return redirect('signup')
     else:
         return render(request, 'signup.html')
