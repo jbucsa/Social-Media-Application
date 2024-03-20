@@ -6,3 +6,7 @@ def index(request):
     # this needs to be fixed for some reason it is not working.
     return render(request, 'index.html')
     #return HttpResponse('<h1>Welcome to our Social Media Application!</h1>')
+    
+    
+def signup(request):
+    return render(request, 'signup.html')
