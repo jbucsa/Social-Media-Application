@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+import uuid
+from datetime import datetime
 
 User = get_user_model()
 
@@ -17,7 +19,7 @@ class Profile(models.Model):
         return self.user.username
 
 # we are creating the uploarding post model here:Thilini Dharmawardhana
-    class Post(models.Model):
+class Post(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4) #post id
     user = models.CharField(max_length=100)
     image = models.ImageField(upload_to='post_images')
