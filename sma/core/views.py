@@ -22,10 +22,10 @@ def signup(request):
         
         if password == password2:
             if User.objects.filter(email=email).exists():
-                messages.info(request, 'Email is already in uses by another user')
+                messages.info(request, 'Email is already in use by another user')
                 return redirect('signup')
             elif User.objects.filter(username=username).exists():
-                messages.info(request, 'Username is already in uses by another user')
+                messages.info(request, 'Username is already in use by another user')
                 return redirect('signup')
             else: 
                 user = User.objects.create_user(username=username, email=email, password=password)
