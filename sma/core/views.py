@@ -12,6 +12,22 @@ def index(request):
     return render(request, 'index.html')
     #return HttpResponse('<h1>Welcome to our Social Media Application!</h1>')
 
+@login_required(login_url='signin')
+def upload(request):
+    pass    
+
+@login_required(login_url='signin')
+def like_post(request):
+    pass    
+
+
+def profile(request):
+    return render(request, profile.html )
+
+
+@login_required(login_url='signin')
+def settings(request):
+    pass   
 
 def signup(request):
     if request.method == 'POST':    
@@ -45,6 +61,7 @@ def signup(request):
             return redirect('signup')
     else:
         return render(request, 'signup.html')  
+
 
 def signin(request):   
     if request.method == 'POST':
