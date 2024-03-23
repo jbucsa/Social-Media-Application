@@ -31,7 +31,7 @@ class Post(models.Model):
         return self.user
     
 # Model for LikePost. Need to run Migration
-class PLikePost(models.Model):
+class LikePost(models.Model):
     post_id = models.CharField(max_length= 500)
     username = models.CharField(max_length= 100)
 
