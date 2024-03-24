@@ -18,18 +18,18 @@ def settings(request):
 def upload(request):
     pass    
 
-@login_required(login_url='signin')
-def like_post(request):
-    pass    
+# @login_required(login_url='signin')
+# def like_post(request):
+#     pass    
 
 
 def profile(request):
     return render(request, profile.html )
 
 
-@login_required(login_url='signin')
-def settings(request):
-    pass   
+# @login_required(login_url='signin')
+# def settings(request):
+#     pass   
 
 def signup(request):
     if request.method == 'POST':    
