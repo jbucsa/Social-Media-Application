@@ -14,7 +14,8 @@ def index(request):
 
 @login_required(login_url='signin')
 def settings(request):
-    return render(request, 'setting.html')
+    user_profile = Profile.objects.get(user=request.user)
+    return render(request, 'setting.html', {'user_profile' : user_profile})
 def upload(request):
     pass    
 
@@ -31,7 +32,7 @@ def profile(request):
 # def settings(request):
 #     pass   
 
-def signup(request):
+def signup(request): 
     if request.method == 'POST':    
         username = request.POST['username']
         email = request.POST['email']
@@ -56,7 +57,7 @@ def signup(request):
                 user_model = User.objects.get(username=username)
                 new_profile = Profile.objects.create(user=user_model, id_user=user_model.id)
                 new_profile.save()
-                return redirect('index')
+                return redirect('settings')
         
         else:
             messages.info(request, 'Password does not match')
