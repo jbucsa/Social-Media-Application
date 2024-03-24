@@ -23,7 +23,7 @@ def upload(request):
 def profile(request, pk):
     user_object = User.objects.get(username=pk)
     user_profile = Profile.objects.get(user=user_object)
-    user_posts = Post.objects.filer(user=pk)
+    user_posts = Post.objects.filter(user=pk)
     user_post_length = len(user_posts)
     
     context = {
