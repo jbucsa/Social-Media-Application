@@ -15,6 +15,21 @@ def index(request):
 @login_required(login_url='signin')
 def settings(request):
     return render(request, 'setting.html')
+def upload(request):
+    pass    
+
+@login_required(login_url='signin')
+def like_post(request):
+    pass    
+
+
+def profile(request):
+    return render(request, profile.html )
+
+
+@login_required(login_url='signin')
+def settings(request):
+    pass   
 
 def signup(request):
     if request.method == 'POST':    
@@ -48,6 +63,7 @@ def signup(request):
             return redirect('signup')
     else:
         return render(request, 'signup.html')  
+
 
 def signin(request):   
     if request.method == 'POST':
