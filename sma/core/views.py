@@ -80,6 +80,9 @@ def profile(request, pk):
     }
     return render(request, 'profile.html', context )
 
+@login_required(login_url='signin')
+def follow(request):
+    pass
   
 def signup(request): 
     if request.method == 'POST':    
