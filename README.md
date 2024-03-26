@@ -93,8 +93,8 @@ python sma/manage.py runserver
 After creating the schema model (see file sma/core/models.py). Run the following terminal command to migrate the schema into the database.
 
 ```bash
-python manage.py makemigrations
-python manage.py migrate
+python sma/manage.py makemigrations
+python sma/manage.py migrate
 ```
 
 ## Administration Settings
