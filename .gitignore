@@ -19,6 +19,7 @@ venv
 # Database
 *.db
 *.rdb
+db.sqlite3
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
