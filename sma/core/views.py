@@ -29,7 +29,7 @@ def index(request):
     feed_lists = list(chain(*feed))
     
     posts = Post.objects.all()
-    return render(request, 'index.html',{'user_profile': user_profile, 'post':feed_lists})
+    return render(request, 'index.html',{'user_profile': user_profile, 'posts':posts, 'post':feed_lists})
 
 @login_required(login_url='signin')
 def upload(request):
