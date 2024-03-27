@@ -59,8 +59,17 @@ button:focus {
 img {
     height: auto;
     max-width: 100%;
-}
-
+} 
+/* Thilini */
+.imglogo
+{
+  width:50%;
+  height:50%;
+  display: none;
+  margin: 0 auto;
+  padding-top:50px;
+  float:left;
+ }
 .theme-layout {
     float: left;
     position: relative;
