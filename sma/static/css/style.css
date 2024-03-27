@@ -63,11 +63,11 @@ img {
 /* Thilini */
 .imglogo
 {
-  width:50%;
-  height:50%;
+  width:25%;
+  height:25%;
   display: none;
   margin: 0 auto;
-  padding-top:50px;
+  padding-top:10px;
   float:left;
  }
 .theme-layout {
