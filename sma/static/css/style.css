@@ -781,7 +781,7 @@ header.sticky {
 }
 
 .timeline-info {
-    background: ##b0b3b8 none repeat scroll 0 0;
+    background: #b0b3b8 none repeat scroll 0 0;
     display: block;
     line-height: 59px;
     width: 100%;
@@ -10046,3 +10046,27 @@ aside.sidebar.full-style {
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
+
+/* .footer-icons {
+    justify-content: space-between;
+    padding: 16px 64px 0px 0px}
+    
+    .footer-icons ul {
+    list-style-type: none;}
+    
+    .footer-icons li {
+    display: inline-block;
+    text-align: center;
+
+    }  */
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        
+      }
+      
+      i {
+        margin-right: 10px;
+      } 
+     
+    
