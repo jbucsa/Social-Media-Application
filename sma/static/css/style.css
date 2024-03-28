@@ -66,6 +66,19 @@ img {
     width: 100%;
 }
 
+.imglogo
+{
+  width:25%;
+  height:25%;
+  display: none;
+  margin: 0 auto;
+  padding-top:50px;
+  float:left;
+ }
+
+
+ 
+
 .theme-layout.boxed {
     background: none repeat scroll 0 0 #000FFF;
     float: none;
