@@ -130,6 +130,23 @@ Thilini Dharmawardhana
 
 
 
+##  Contributing
+
+Thanks to the following contributors for coding help and image design:
+
+Creator Account: Tomi Tokko 
+- Contribution: Coding and Design
+- Platform: Youtube
+- Webpage: https://www.youtube.com/@freecodecamp
+- Tutorial Page: https://www.youtube.com/watch?v=xSUm6iMtREA
+
+Creator Account: freeCodeCamp.org 
+- Contribution: Tutorial Resourse
+- Platform: Youtube
+- Webpage: https://www.youtube.com/@freecodecamp
+
+
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url-Bucsa]: https://www.linkedin.com/in/justin-bucsa
 [linkedin-Aldoresendiz]: https://www.linkedin.com/in/aldoresendiz/
