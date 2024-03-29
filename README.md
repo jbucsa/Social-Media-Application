@@ -1,5 +1,20 @@
 # Social-Media-Application
 
+
+### Sign Up Page
+         
+<img align="center" src="/static/README_Images/SignUpPage.jpg" width="700">
+
+### Sign In Page
+   
+<img align="center" src="/static/README_Images/SignInPage.jpg" width="700">
+
+
+### Index Page
+   
+<img align="center" src="/static/README_Images/IndexPage.jpg" width="700">
+   
+
 ## Terminal Commands
 
 ### Creating the VENV environment
